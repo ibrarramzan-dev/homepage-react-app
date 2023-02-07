@@ -1,7 +1,7 @@
 import React from "react";
 import sliderImg1 from "./images/homepage-top-slider-img-1.png";
 
-export default function MainSlider() {
+function MainSlider() {
   return (
     <section className="MainSlider-container">
       <img src={sliderImg1} alt="Slider img 1" />
@@ -16,3 +16,5 @@ export default function MainSlider() {
     </section>
   );
 }
+
+export default MainSlider;

@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "antd";
 import logo from "./images/logo.png";
 import joinUsBtn from "./images/join-us-btn.png";
-import fbIcon from "./images/fb-icon.png";
 import twitterIcon from "./images/twitter-icon.png";
 import youtubeIcon from "./images/youtube-icon.png";
 import instagramIcon from "./images/instagram-icon.png";
@@ -10,7 +9,7 @@ import searchIcon from "./images/search-icon.png";
 import hamburgerIcon from "./images/hamburger-icon.png";
 import arrowDownIcon from "./images/arrow-down-icon.png";
 
-export default function Header() {
+function Header() {
   return (
     <header>
       <Row className="Header-row">
@@ -60,3 +59,5 @@ export default function Header() {
     </header>
   );
 }
+
+export default Header;

@@ -1,12 +1,12 @@
 import React from "react";
+import { Row, Col } from "antd";
 import SliderArrows from "../SliderArrows";
 import CardBasic from "../CardBasic";
-import { Row, Col } from "antd";
 import athelete1 from "./images/trending-athelete-1.png";
 import athelete2 from "./images/trending-athelete-2.png";
 import athelete3 from "./images/trending-athelete-3.png";
 
-export default function TrendingAthletes() {
+function TrendingAthletes() {
   return (
     <section className="TrendingAthletes-container">
       <div className="TrendingAthletes-heading-and-slider-arrows-wrapper">
@@ -45,3 +45,5 @@ export default function TrendingAthletes() {
     </section>
   );
 }
+
+export default TrendingAthletes;

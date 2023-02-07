@@ -3,7 +3,7 @@ import newMerchOverlay from "./images/new-merch-overlay.png";
 import newMerch from "./images/new-merch.png";
 import shopNowBtn from "./images/shop-now-btn.png";
 
-export default function NewMerch() {
+function NewMerch() {
   return (
     <section className="NewMerch-container">
       <img
@@ -38,3 +38,5 @@ export default function NewMerch() {
     </section>
   );
 }
+
+export default NewMerch;

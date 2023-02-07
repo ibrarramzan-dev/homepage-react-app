@@ -3,6 +3,7 @@ import Header from "./Header";
 import MainSlider from "./MainSlider";
 import TrendingAthletes from "./TrendingAthletes";
 import NewMerch from "./NewMerch/NewMerch";
+import PopularMerch from "./PopularMerch/PopularMerch";
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
       <MainSlider />
       <TrendingAthletes />
       <NewMerch />
+      <PopularMerch />
     </div>
   );
 }

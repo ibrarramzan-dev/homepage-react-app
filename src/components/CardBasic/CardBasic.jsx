@@ -1,7 +1,7 @@
 import React from "react";
 import cardOverlayImg from "./images/card-overlay.png";
 
-export default function CardBasic({ bgImage, heading, category }) {
+function CardBasic({ bgImage, heading, category }) {
   return (
     <div className="CardBasic-container">
       <img src={bgImage} alt="athelete" />
@@ -20,3 +20,5 @@ export default function CardBasic({ bgImage, heading, category }) {
     </div>
   );
 }
+
+export default CardBasic;
