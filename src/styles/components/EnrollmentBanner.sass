@@ -1,0 +1,46 @@
+@import '../theme/colors'
+
+.EnrollmentBanner-container
+  position: relative
+  height: 900px
+  background: red
+
+  img
+    &:nth-child(2)
+      position: absolute
+      bottom: 3.01px
+      left: 0
+
+  .EnrollmentBanner-content-wrapper
+    position: absolute
+    top: 0
+    right: 0
+    width: 869.42px
+    height: 600px // remove
+    // background: red
+    margin-top: 143.46px
+
+    .EnrollmentBanner-content-heading-wrapper
+      display: flex
+      height: 211.32px
+
+      .EnrollmentBanner-content-heading
+        font-size: 86px
+        margin-left: 30.4px
+
+    .EnrollmentBanner-content-subheading
+      margin-top: 40.28px
+      font-size: 22px
+      padding-left: 7.28px
+
+      p
+        background: $theme-pink
+        padding-top: 3px
+        padding-bottom: 6.98px
+        
+        &:first-child
+          width: 847.82px
+
+        &:nth-child(2)
+          width: 158.88px
+          margin-top: -18px

@@ -2,8 +2,9 @@ import React, { useEffect } from "react";
 import Header from "./Header";
 import MainSlider from "./MainSlider";
 import TrendingAthletes from "./TrendingAthletes";
-import NewMerch from "./NewMerch/NewMerch";
-import PopularMerch from "./PopularMerch/PopularMerch";
+import NewMerch from "./NewMerch";
+import PopularMerch from "./PopularMerch";
+import EnrollmentBanner from "./EnrollmentBanner";
 
 function App() {
   useEffect(() => {
@@ -17,6 +18,7 @@ function App() {
       <TrendingAthletes />
       <NewMerch />
       <PopularMerch />
+      <EnrollmentBanner />
     </div>
   );
 }
