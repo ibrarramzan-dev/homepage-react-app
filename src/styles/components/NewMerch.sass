@@ -1,0 +1,62 @@
+@import '../theme/colors'
+
+.NewMerch-container
+  position: relative
+  // background: red
+
+  .NewMerch-image-overlay
+    position: absolute
+    top: 0
+    left: 0
+    z-index: -2
+
+  .NewMerch-image
+    position: absolute
+    top: 168.42px
+    left: 851.24px
+
+  .NewMerch-content-wrapper
+    position: absolute
+    top: 174.42px
+    left: 103.72px
+    width: 843px
+    height: 500px
+    // background: pink
+    z-index: 4
+    // margin-top: 174.42px
+    // margin-left: 103.72px
+
+    .NewMerch-content-heading-wrapper
+      display: flex
+      height: 181.26px
+      // background: red
+      text-transform: uppercase
+
+      .NewMerch-content-heading-vertical-line
+        width: 13px
+        background: #000
+
+      .NewMerch-content-heading
+        font-size: 76px
+        margin-left: 38.88px
+
+        p
+          &:first-child
+            margin-bottom: 24px
+
+    .NewMerch-content-subheading
+      margin-top: 49.06px
+      margin-left: 7.15px
+      font-size: 26px
+
+      p
+        background: $theme-pink
+        padding: 4px 0 5px 5px
+
+        &:first-child
+          margin-bottom: 3px
+
+    .NewMerch-content-button-wrapper
+      img
+        margin-left: 22.33px
+        cursor: pointer
