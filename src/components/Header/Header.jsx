@@ -8,6 +8,7 @@ import youtubeIcon from "./images/youtube-icon.png";
 import instagramIcon from "./images/instagram-icon.png";
 import searchIcon from "./images/search-icon.png";
 import hamburgerIcon from "./images/hamburger-icon.png";
+import arrowDownIcon from "./images/arrow-down-icon.png";
 
 export default function Header() {
   return (
@@ -19,7 +20,6 @@ export default function Header() {
         <Col className="Header-right-col">
           <div className="Header-right-col-social-section">
             <img src={joinUsBtn} alt="Join Us" />
-            <img src={fbIcon} alt="Facebook" />
             <img src={twitterIcon} alt="Twitter" />
             <img src={youtubeIcon} alt="YouTube" />
             <img src={instagramIcon} alt="Instagram" />
@@ -32,8 +32,14 @@ export default function Header() {
               <ul>
                 <li>Home</li>
                 <li>Atheletes</li>
-                <li>Merch</li>
-                <li>Videos</li>
+                <li>
+                  Merch
+                  <img src={arrowDownIcon} alt="Arrow down" />
+                </li>
+                <li>
+                  Videos
+                  <img src={arrowDownIcon} alt="Arrow down" />
+                </li>
                 <li>Faqs</li>
                 <li>Contact</li>
               </ul>

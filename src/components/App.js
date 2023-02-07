@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import Header from "./Header";
+import MainSlider from "./MainSlider";
 
 function App() {
   useEffect(() => {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <MainSlider />
     </div>
   );
 }
