@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/homepage-react-app/static/css/main.5d73c0e2.css",
+    "main.js": "/homepage-react-app/static/js/main.6dea5536.js",
+    "static/media/personal-videos-thumbnail-1.png": "/homepage-react-app/static/media/personal-videos-thumbnail-1.278952e6e03a2d70624b.png",
+    "static/media/personal-videos-thumbnail-3.png": "/homepage-react-app/static/media/personal-videos-thumbnail-3.dd10cb038dfc6ed5c998.png",
+    "static/media/personal-videos-thumbnail-2.png": "/homepage-react-app/static/media/personal-videos-thumbnail-2.e89bea9153ceac54700c.png",
+    "static/media/homepage-top-slider-img-1.png": "/homepage-react-app/static/media/homepage-top-slider-img-1.4704cd3d87368cf73454.png",
+    "static/media/organizations-thumbnail3.png": "/homepage-react-app/static/media/organizations-thumbnail3.5b774c90087b9c13b069.png",
+    "static/media/trending-athelete-3.png": "/homepage-react-app/static/media/trending-athelete-3.5b774c90087b9c13b069.png",
+    "static/media/organizations-thumbnail1.png": "/homepage-react-app/static/media/organizations-thumbnail1.0743660d94693f23f4c6.png",
+    "static/media/trending-athelete-1.png": "/homepage-react-app/static/media/trending-athelete-1.0743660d94693f23f4c6.png",
+    "static/media/latest-news-thumbnail-3.png": "/homepage-react-app/static/media/latest-news-thumbnail-3.030716f5539f128b8335.png",
+    "static/media/popular-merch-2.png": "/homepage-react-app/static/media/popular-merch-2.cac1281b3ffefe4d54d3.png",
+    "static/media/latest-news-thumbnail-1.png": "/homepage-react-app/static/media/latest-news-thumbnail-1.3e83f770c335edcb27f6.png",
+    "static/media/new-merch.png": "/homepage-react-app/static/media/new-merch.86134fa5d82d3ca4a116.png",
+    "static/media/latest-news-thumbnail-2.png": "/homepage-react-app/static/media/latest-news-thumbnail-2.4f3e5812c54a8b049956.png",
+    "static/media/popular-merch-3.png": "/homepage-react-app/static/media/popular-merch-3.9328040fd34cb1211075.png",
+    "static/media/organizations-thumbnail2.png": "/homepage-react-app/static/media/organizations-thumbnail2.ffa0715a5e850a8fb605.png",
+    "static/media/trending-athelete-2.png": "/homepage-react-app/static/media/trending-athelete-2.ffa0715a5e850a8fb605.png",
+    "static/media/man-speaker.png": "/homepage-react-app/static/media/man-speaker.fe644acbc191f1cb7094.png",
+    "static/media/popular-merch-4.png": "/homepage-react-app/static/media/popular-merch-4.dd9f83998c299d0cad2d.png",
+    "static/media/popular-merch-1.png": "/homepage-react-app/static/media/popular-merch-1.1d424bfea76632fceea3.png",
+    "static/media/enroll-as-an-athelete-btn.png": "/homepage-react-app/static/media/enroll-as-an-athelete-btn.be3f61205ae562ea6194.png",
+    "static/media/logo.png": "/homepage-react-app/static/media/logo.bbc1d6936205447dd1e9.png",
+    "static/media/back-arrow-left-icon.png": "/homepage-react-app/static/media/back-arrow-left-icon.727d74cc5b4fb0e6fa64.png",
+    "static/media/next-arrow-right-icon.png": "/homepage-react-app/static/media/next-arrow-right-icon.6db5b75e21168edfe35c.png",
+    "static/media/shop-now-btn.png": "/homepage-react-app/static/media/shop-now-btn.61381ae40924593339f0.png",
+    "static/media/card-overlay.png": "/homepage-react-app/static/media/card-overlay.f7955f5733376162a9bc.png",
+    "index.html": "/homepage-react-app/index.html",
+    "main.5d73c0e2.css.map": "/homepage-react-app/static/css/main.5d73c0e2.css.map",
+    "main.6dea5536.js.map": "/homepage-react-app/static/js/main.6dea5536.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d73c0e2.css",
+    "static/js/main.6dea5536.js"
+  ]
+}
