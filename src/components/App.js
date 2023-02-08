@@ -5,7 +5,8 @@ import TrendingAthletes from "./TrendingAthletes";
 import NewMerch from "./NewMerch";
 import PopularMerch from "./PopularMerch";
 import EnrollmentBanner from "./EnrollmentBanner";
-import PersonalVideos from "./PersonalVideos/PersonalVideos";
+import PersonalVideos from "./PersonalVideos";
+import Organizations from "./Organizations";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function App() {
       <PopularMerch />
       <EnrollmentBanner />
       <PersonalVideos />
+      <Organizations />
     </div>
   );
 }
