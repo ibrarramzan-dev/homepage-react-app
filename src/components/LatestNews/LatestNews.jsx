@@ -4,6 +4,7 @@ import CardNews from "../CardNews";
 import thumbnail1 from "./images/latest-news-thumbnail-1.png";
 import thumbnail2 from "./images/latest-news-thumbnail-2.png";
 import thumbnail3 from "./images/latest-news-thumbnail-3.png";
+import sliderDots from "./images/latest-news-slider-dots.png";
 
 function LatestNews() {
   return (
@@ -35,6 +36,20 @@ function LatestNews() {
           />
         </Col>
       </Row>
+
+      <img
+        className="LatestNews-cards-slider-dots"
+        src={sliderDots}
+        alt="Slider dots"
+      />
+
+      <div className="LatestNews-subscribe-email-wrapper">
+        <input type="text" placeholder="YOUR EMAIL" />
+
+        <div className="LatestNews-subscribe-btn">
+          <p>Subscribe</p>
+        </div>
+      </div>
     </section>
   );
 }
