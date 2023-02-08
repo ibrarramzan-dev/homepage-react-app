@@ -20,6 +20,7 @@ function CardNews({ image, date, title }) {
 
       <div className="CardNews-read-more-wrapper">
         <img src={readMoreIcon} alt="Read More icon" />
+
         <p className="CardNews-read-more-text">Read More</p>
       </div>
     </section>

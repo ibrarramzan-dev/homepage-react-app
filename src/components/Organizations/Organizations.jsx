@@ -11,6 +11,7 @@ function Organizations() {
     <section className="Organizations-container">
       <div className="Organizations-heading-and-slider-arrows-wrapper">
         <div className="Organizations-heading-vertical-line" />
+
         <p className="Organizations-heading">Organizations</p>
 
         <div className="Organizations-slider-arrows-wrapper">

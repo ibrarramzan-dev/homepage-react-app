@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 import SliderArrows from "../SliderArrows";
-import CardItem from "../CardItem/CardItem";
+import CardItem from "../CardItem";
 import popularMerch1 from "./images/popular-merch-1.png";
 import popularMerch2 from "./images/popular-merch-2.png";
 import popularMerch3 from "./images/popular-merch-3.png";

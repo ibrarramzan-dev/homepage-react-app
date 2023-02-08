@@ -8,6 +8,7 @@ import EnrollmentBanner from "./EnrollmentBanner";
 import PersonalVideos from "./PersonalVideos";
 import Organizations from "./Organizations";
 import LatestNews from "./LatestNews";
+import Footer from "./Footer";
 
 function App() {
   useEffect(() => {
@@ -33,6 +34,8 @@ function App() {
       <Organizations />
 
       <LatestNews />
+
+      <Footer />
     </div>
   );
 }

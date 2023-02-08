@@ -8,6 +8,7 @@ function EnrollmentBanner() {
   return (
     <section className="EnrollmentBanner-container">
       <img src={enrollmentBannerOverlay} alt="Enrollment Banner overlay" />
+
       <img src={manSpeaker} alt="Man speaker" />
 
       <div className="EnrollmentBanner-content-wrapper">

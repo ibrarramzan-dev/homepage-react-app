@@ -16,6 +16,7 @@ function Header() {
         <Col className="Header-left-col">
           <img src={logo} alt="Logo" />
         </Col>
+
         <Col className="Header-right-col">
           <div className="Header-right-col-social-section">
             <img src={joinUsBtn} alt="Join Us" />
