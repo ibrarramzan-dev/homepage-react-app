@@ -7,6 +7,7 @@ import PopularMerch from "./PopularMerch";
 import EnrollmentBanner from "./EnrollmentBanner";
 import PersonalVideos from "./PersonalVideos";
 import Organizations from "./Organizations";
+import LatestNews from "./LatestNews";
 
 function App() {
   useEffect(() => {
@@ -16,13 +17,22 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <MainSlider />
+
       <TrendingAthletes />
+
       <NewMerch />
+
       <PopularMerch />
+
       <EnrollmentBanner />
+
       <PersonalVideos />
+
       <Organizations />
+
+      <LatestNews />
     </div>
   );
 }
