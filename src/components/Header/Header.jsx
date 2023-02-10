@@ -15,16 +15,18 @@ function Header() {
     <header>
       <Row className="Header-row">
         <Col className="Header-left-col">
-          <img src={logo} alt="Logo" />
+          <a href="/">
+            <img src={logo} title="FANFIELD" alt="Logo" />
+          </a>
         </Col>
 
         <Col className="Header-right-col">
           <div className="Header-right-col-social-section">
             <img src={joinUsBtn} alt="Join Us" />
-            <img src={fbIcon} alt="FB" />
-            <img src={twitterIcon} alt="Twitter" />
-            <img src={youtubeIcon} alt="YouTube" />
-            <img src={instagramIcon} alt="Instagram" />
+            <img src={fbIcon} title="Facebook" alt="FB" />
+            <img src={twitterIcon} title="Twitter" alt="Twitter" />
+            <img src={youtubeIcon} title="YouTube" alt="YouTube" />
+            <img src={instagramIcon} title="Instagram" alt="Insta" />
           </div>
 
           <div className="Header-right-col-horizontal-line" />

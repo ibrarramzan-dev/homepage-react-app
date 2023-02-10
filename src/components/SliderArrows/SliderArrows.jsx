@@ -5,8 +5,8 @@ import arrowRightIcon from "./images/next-arrow-right-icon.png";
 function SliderArrows() {
   return (
     <div className="SliderArrows-container">
-      <img src={arrowLeftIcon} alt="Back" />
-      <img src={arrowRightIcon} alt="Next" />
+      <img src={arrowLeftIcon} title="Previous" alt="Back" />
+      <img src={arrowRightIcon} title="Next" alt="Next" />
     </div>
   );
 }

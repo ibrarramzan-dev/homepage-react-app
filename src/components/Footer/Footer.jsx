@@ -21,7 +21,9 @@ function Footer() {
 
       <Row className="Footer-row">
         <Col>
-          <img src={logo} alt="logo" />
+          <a href="/">
+            <img src={logo} title="FANFIELD" alt="Logo" />
+          </a>
         </Col>
 
         <Col>
@@ -77,10 +79,10 @@ function Footer() {
           </div>
 
           <div className="Footer-contact-social-icons-wrapper">
-            <img src={fbIcon} alt="FB" />
-            <img src={twitterIcon} alt="Twitter" />
-            <img src={youtubeIcon} alt="YouTube" />
-            <img src={instagramIcon} alt="Insta" />
+            <img src={fbIcon} title="Facebook" alt="FB" />
+            <img src={twitterIcon} title="Twitter" alt="Twitter" />
+            <img src={youtubeIcon} title="YouTube" alt="YouTube" />
+            <img src={instagramIcon} title="Instagram" alt="Insta" />
           </div>
         </Col>
       </Row>
