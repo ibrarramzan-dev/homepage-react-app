@@ -14,7 +14,7 @@ function Footer() {
   return (
     <footer>
       <img
-        className="Footer-horizontal-line"
+        className="Footer-horizontal-line-top"
         src={horizontalLine}
         alt="Horizontal line"
       />
@@ -84,6 +84,12 @@ function Footer() {
           </div>
         </Col>
       </Row>
+
+      <img
+        className="Footer-horizontal-line-bottom"
+        src={horizontalLine}
+        alt="Horizontal line"
+      />
     </footer>
   );
 }
